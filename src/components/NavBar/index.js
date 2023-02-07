@@ -5,7 +5,7 @@ import Icon3 from '../../images/AFUCENT.png';
 import Dropdown from './Dropdown';
 import { Nav,NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItems, NavLinks} from './NavBarElement';
 import { animateScroll as scroll } from 'react-scroll';
-import {Link} from 'react-router-dom';
+
 const NavBar = ({toggle}) => {
     const [scrollNav, setScrollNav]= useState(false);
     const changeNav=()=>{
@@ -22,11 +22,9 @@ const NavBar = ({toggle}) => {
 
 
 
-  const [click, setClick] = useState(false);
+
   const [dropdown, setDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
@@ -67,7 +65,7 @@ const NavBar = ({toggle}) => {
    
             
             >
-              Expertise 
+               Expertise 
              
             </NavLinks>
             {dropdown && <Dropdown />}

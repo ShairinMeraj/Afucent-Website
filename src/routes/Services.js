@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Sidebar from "../components/Sidebar";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar"; 
 import Footer from "../components/Footer";
 import Banner from "../components/SectionBanner/Banner";
 import AboutImg from "../images/three.jpg";
-import AboutSection from "../components/AboutUS/AboutSection";
 import InfoSection from "../components/InfoSection";
 import { homeObjOne, homeObjThree, homeObjTwo } from "../components/InfoSection/Data";
 import Card from "../components/Cards/Card";
