@@ -1,0 +1,29 @@
+.lay{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background: #fff;
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+     
+}
+.text-box{
+    color: black;
+
+}
+.text-box h2{
+    font-size: 42px;
+}
+text-box p{
+    font-size:  16px;
+}

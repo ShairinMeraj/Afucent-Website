@@ -1,32 +1,44 @@
 import React from 'react'
-import Icon1 from '../../images/img1.svg'
-import Icon2 from '../../images/img1.svg'
-import Icon3 from '../../images/img1.svg'
-import { ServicesContainer, ServicesWrapper, ServicesCard, ServicesH1, ServicesH2,
+import Icon1 from '../../images/imp.jpg'
+import Icon2 from '../../images/consult.jpg'
+import Icon3 from '../../images/managedS.jpg'
+import { ServicesContainer, Servicesdiv, ServicesWrapper,ServicesBox, ServicesCard, ServicesH1, ServicesH2,
 ServicesP, ServicesIcon } from './ServiceElements';
 const Services = () => {
-  return (
-    <ServicesContainer id='services'>
-        <ServicesH1>Our Services</ServicesH1>
+  return (<ServicesBox>
+  <ServicesH1>Digital Expereince Management Practice</ServicesH1>
+    <ServicesContainer >
+   
          <ServicesWrapper>
+          
             <ServicesCard>
                 <ServicesIcon src={Icon1}/>
-                <ServicesH2>Implementation</ServicesH2>
-                <ServicesP>sfj drtjr dfrkj jhg gfgtjhgwergju tjeht5gk.</ServicesP>
-            </ServicesCard>
+                <Servicesdiv>
+                <ServicesH2>Content Management Systems</ServicesH2>
+                <ServicesP>Headless CMS</ServicesP>
+                <ServicesP> Traditional CMS</ServicesP>
+                <ServicesP>Experience Manager  as a Cloud Service</ServicesP>
+                </Servicesdiv>
+                 </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}/>
-                <ServicesH2>Consulting</ServicesH2>
-                <ServicesP>sfj drtjr dfrkj jhg gfgtjhgwergju tjeht5gk.</ServicesP>
+                <Servicesdiv>
+                <ServicesH2>Web & Mobile Apps</ServicesH2>
+                <ServicesP>Web Applications</ServicesP>
+                <ServicesP>Cross Platform Apps</ServicesP>
+                </Servicesdiv>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3}/>
-                <ServicesH2>Managed Services</ServicesH2>
-                <ServicesP>sfj drtjr dfrkj jhg gfgtjhgwergju tjeht5gk.</ServicesP>
+                <Servicesdiv>
+                <ServicesH2>E-commerce System</ServicesH2>
+                <ServicesP>Business-to-business (B2B) sites</ServicesP>
+                <ServicesP>Business-to-consumer (B2C) sites</ServicesP>
+                </Servicesdiv>
             </ServicesCard>
          </ServicesWrapper>
-
-    </ServicesContainer>
+ 
+    </ServicesContainer></ServicesBox>
   )
 }
 

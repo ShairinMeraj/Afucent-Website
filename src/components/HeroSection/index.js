@@ -8,11 +8,11 @@ const HeroSection = () => {
     const onHover=()=>{
         setHover(!hover);
     }
-  return (
+  return (   
     <HeroContainer id='home'>
         <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
-        </HeroBg>
+        </HeroBg> 
         <HeroContent>
             <HeroH1>Crafting Differentiated Digital Experience With MarTech</HeroH1>
             <HeroP>We have a team of experts with rich experience in Digital Experience & Marketing Technologies.</HeroP>

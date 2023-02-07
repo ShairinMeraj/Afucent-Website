@@ -1,18 +1,26 @@
 import './App.css';
-import {BrowserRouter as Router, Routes , Route} from 'react-router-dom';
-import Home from './pages';
-import LearnMore from './pages/LearnMore';
+import {Router, Routes , Route} from 'react-router-dom';
+import Home from './routes/index';
+import About from './routes/About';
+import Contact from './routes/Contact';
+import Service from './routes/Services';
+import  Expertise from './routes/Expertise';
+import Career from './routes/Career';
 
 
 function App() {
   return (
-    <Router>
-      <Routes>
-         <Route path='/' element={<Home/>} exact/>
-         <Route path='LearnMore'element={<LearnMore/>} exact/>
+  
+      <Routes> 
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/expertise" element={<Expertise />} />
+        <Route path="/careers" element={<Career/>} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/service" element={<Service />} />
       </Routes>
   
-    </Router>
+
   );
 }
 
