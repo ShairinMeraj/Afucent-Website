@@ -6,9 +6,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 0;
-height: 800px;
+height: 850px;
 position: relative;
 z-index: 1;
+
 
 :before{
     content:'';
@@ -21,7 +22,7 @@ z-index: 1;
         180deg,
         rgba(0, 0, 0, 0.2) 0%,
         rgba(0, 0, 0, 0.6) 100%),
-        linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+        linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
     z-index: 2;
 }
 
@@ -37,26 +38,28 @@ width: 100%;
 height: 100%;
 overflow: hidden;`
 
-export const VideoBg=styled.video`
+export const VideoBg=styled.img`
 width: 100%;
 height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
-background: #232a34`;
+`;
 
 export const HeroContent=styled.div`
 z-index: 3;
 max-width: 1200px;
 position: absolute;
-padding: 8px 24px;
+padding: 0px 2px;
 display: flex;
 flex-direction: column;
 align-items: center;
 `
 export const HeroH1=styled.h1`
 color: #fff;
-font-size: 56px;
+font-size: 44px;
+margin-top: 2px;
 text-align: center;
+
 
 @media screen and (max-width: 768px){
      font-size: 40px;
@@ -69,11 +72,11 @@ text-align: center;
  `
 
  export const HeroP=styled.p`
-  margin-top: 24px;
+  margin-top: 100px;
   color: #fff;
-  font-size: 24px;
-  text-align: center;
-  max-width: 600px;
+  font-size: 28px;
+font-weight: 700;
+  max-width: 100%;
   
   @media screen and (max-width: 768px){
     font-size: 24px;

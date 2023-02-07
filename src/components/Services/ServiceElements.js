@@ -1,73 +1,106 @@
 import styled from "styled-components";
 export const ServicesContainer=styled.div`
-height: 800px;
+height: 80vh;
 display: flex;
-flex-direction: column;
+background: white;
 justify-content: center;
 align items: center;
-text-align: center;
-background: #010606;
-
+@media screen and (max-width: 1000px){
+    height: 100%;}
 @media screen and (max-width: 768px){
-    height: 1100px;
-}
-@media screen and (max-width: 768px){
-    height: 1300px;
-}`;
+    height: 100%;}
+`;
+export const ServicesBox=styled.div`
+background: white;
+justify-content: center;
+align items: center;
+`;
 
 export const ServicesWrapper=styled.div`
-max-width: 1000px;
-margin: 0 auto;
-align-items: center;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 16px;
-padding: 0 50px;
+padding-top: 20px;
+
+display:flex;
+
 
 @media screen and (max-width: 1000px){
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
 }
 @media screen and (max-width: 768px){
-    grid-template-columns: 1fr;
-    padding: 0 20px;
+
+    display: flex;
+  
 }`
 
 export const ServicesCard=styled.div`
-background: #fff;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-border-radius: 10px;
-max-height: 340px;
-padding: 30px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-transition: all 0.2s ease-in-out;
+background-color: #fff;
+height: 500px;
 
-&:hover{
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
+
+margin: 50px;
+box-shadow: 5px 5px 20px black;
+overflow: hidden;
+transition: all 0.2s ease-in-out;
+ &: hover{
     cursor: pointer;
-}`
+ }
+
+
+`
 
 export const ServicesIcon=styled.img`
-heigth: 16px;
-width: 160px;
-margin-bottom: 10px;`;
+height: 500px;
+width: 350px;
+border-radius: 5px;
+&: hover{
+    transform: scale(1.1) rotate(-360deg);
+}`;
+
+export const Servicesdiv=styled.div`
+width:350px;
+height:70px;
+padding: 6px;
+box-sizing: border-box;
+position: relative;
+bottom: 240px;
+background: rgb(27, 27, 27, 0.5);
+color: White;
+visibility:  visible;
+opacity: 0;
+
+transition: .5s;
+&: hover{
+    height: 240px;
+    bottom: 240px;
+    background: black;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+`
 
 export const ServicesH1=styled.h1`
-font-size: 2.5rem;
-color: #fff;
-margin-bottom: 64px;  
+font-size: 40px;
+color: black;
+margin: 10px;  
+text-align:center;
+padding-top: 50px;
 
-@media screen and (max-width: 480px){
-    font-size: 2rem;
-}
 `
 export const ServicesH2=styled.h2`
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin: 10px;
 `
 export const ServicesP=styled.p`
-font-size: 1rem;
-text-align: center;`;
+font-size: 20px;
+text: white;
+margin: 20px;
+
+&: hover{
+    
+}
+`
