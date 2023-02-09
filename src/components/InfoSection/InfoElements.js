@@ -3,7 +3,7 @@ export const InfoContainer = styled.div`
   color: #fff;
    background: ${({lightBg}) => (lightBg ? "#f9f9f9" : "#163057")};
   display: flex;
-  margin-top: -10px;
+  margin-top: -20px;
   margin-bottom: -20px;
  
   @media screen and (max-width: 768px) {
@@ -41,12 +41,12 @@ export const InfoRow = styled.div`
 
 export const Column1 = styled.div` 
   margin-bottom: 15px;
-  padding: 0 90px;
+  padding: 0 40px;
   grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-  margin-bottom: 15px;
+  margin-bottom: 1px;
   padding: 0 9px;
   grid-area: col2;
 `;
@@ -54,7 +54,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width:900px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 `;
 
 export const TopLine = styled.p`
