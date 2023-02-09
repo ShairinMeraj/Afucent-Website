@@ -6,9 +6,8 @@ import Banner from "../components/SectionBanner/Banner";
 import AboutImg from "../images/three.jpg";
 import InfoSection from "../components/InfoSection";
 import { homeObjOne, homeObjThree, homeObjTwo } from "../components/InfoSection/Data";
-import Card from "../components/Cards/Card";
-import Services from "../components/Services";
-import Layout from "../components/SidebySide/Layout";
+
+// import Layout from "../components/SidebySide/Layout";
 function Service() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -23,9 +22,8 @@ function Service() {
       <InfoSection {...homeObjTwo}/>
 
      <InfoSection {...homeObjThree}/>
-  <Layout/>
-      <Card/>
-     <Services/>
+  {/* <Layout/> */}
+   
       <Footer/>
     </>
   )

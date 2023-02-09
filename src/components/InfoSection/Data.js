@@ -39,9 +39,9 @@ export const homeObjOne={
 
      export const homeObjThree={
         id:'tell',
-        lightBg: false,
-        lightText: true,
-        lightTextDesc: true,
+        lightBg: true,
+        lightText: false,
+        lightTextDesc: false,
         topLine: 'Services',
         headline: 'Managed Services',
         description: '- Provide maintenance support to existing implementation of the mentioned technologies',
@@ -50,6 +50,6 @@ export const homeObjOne={
         imgStart: false,
         img: require('../../images/managedS.jpg'),
         alt:'Team',
-        dark: true,
-        primary: true,
-        darkText: false}
+        dark: false,
+        primary: false,
+        darkText: true}
