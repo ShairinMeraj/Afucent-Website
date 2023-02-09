@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 import { Button } from '../ButtonElements'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper,
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroBtnWrapper,
 ArrowForward,ArrowRight} from '../HeroSection/HeroElements'
 const Connect = () => {
     const [hover, setHover]=useState(false);
