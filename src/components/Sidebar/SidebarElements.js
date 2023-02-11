@@ -1,9 +1,10 @@
 import styled from 'styled-components';
  import { FaTimes } from 'react-icons/fa';
- import {Link as LinkS} from 'react-scroll';
+//  import {Link as LinkS} from 'react-scroll';
+ import {Link as LinkR} from 'react-router-dom';
  export const SidebarContainer=styled.aside`
  position: fixed;
- z-index: 999;
+ z-index: 90;
  width: 100%;
  height: 100%;
  background: #052257; 
@@ -40,7 +41,7 @@ import styled from 'styled-components';
   @media screen and(max-width: 480px){
     grid-template-rows: repeat(6, 60px);
    }`
-export const SidebarLink=styled(LinkS)`
+export const SidebarLink=styled(LinkR)`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -56,3 +57,5 @@ cursor: pointer;
     color:#92acdc;
     transition: 0.6s ease-in-out;
 }`;
+
+

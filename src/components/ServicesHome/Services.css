@@ -97,21 +97,19 @@ margin-bottom: 30px;
 
 
 @media screen and (max-width:998px){
-    .sh{
-        padding: 1rem;
-    }
-    .s-col{
+    
+    .s-col{margin: 5px;
         padding: 0 1rem 3rem 1rem;
      }
      .s-b{
         width: 150px;
-        margin-left: 150px;}
+        margin-left: 60px;}
     .s-row{
         grid-template-columns: 1fr;
 
     }
     .thumb img{
-        width:450px;
+        width:350px;
         height: 400px;
     }
 }

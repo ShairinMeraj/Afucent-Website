@@ -69,7 +69,7 @@ export const NavItems=styled.li`
  height: 80px;
  `
  export const NavLinks=styled(LinkR)`
- color: #000;
+ color: #052257;
  display: flex;
  align-items: center;
  font-weight: bolder;

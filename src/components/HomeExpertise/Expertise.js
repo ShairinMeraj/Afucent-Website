@@ -1,24 +1,23 @@
-
 import React, {Fragment, useState} from 'react'
 import { Button } from "../ButtonElements";
-import ServiceDetails  from './ServiceDetails'
-import "./Services.css"
-const ServicesHome = () => {
-    const[detail]=useState(ServiceDetails )
+import ExpertiseDetails  from './ExpertiseDetails'
+import "./Expertise.css"
+const Expertise = () => {
+    const[detail]=useState(ExpertiseDetails )
   return (
     <Fragment>
         <section className='sh'>
             <div className='sh-heading'>
             <span>
-            Our Services
+            Our Expertise
             </span>
             <h2>Leveraging Technology for Scaled Digital Experience</h2>
             </div>
             <div className='s-row'>
                 {
                     detail.map((detail )=>{
-                        return ( <div className='s-col'>
-                            <div className='s-card '>
+                        return ( <div className='s-col'> 
+                            <div className='s-card '>  
                                 <div className='thumb'>
                                     <img src={detail.Image} alt="agent"/>
                                                                                              
@@ -42,4 +41,4 @@ const ServicesHome = () => {
   )}
 
 
-export default ServicesHome
+export default Expertise
