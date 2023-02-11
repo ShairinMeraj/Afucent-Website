@@ -2,12 +2,12 @@ import "./AboutSectionStyles.css";
 function AboutSection() {
   return (
     <div className="about-container">
-      <h1>Afucent is a technology driven company with major focus in digital experience and marketing technologies.</h1>
+      <h1 className="ab">Afucent is a technology driven company with major focus in digital experience and marketing technologies.</h1>
   
-      <h1> Our focus is to help organizations to reshape
+      <h1 className="ab"> Our focus is to help organizations to reshape
 their business structure by leveraging advanced tools and making better use of scalable solutions.
  </h1><br/>
-      <h1>We have a strong team with different levels of expertise helping clients and providing solutions with a good mix of business and technology.</h1>
+      <h1 className="ab">We have a strong team with different levels of expertise helping clients and providing solutions with a good mix of business and technology.</h1>
       <br/> <br/> <br/> <h1>Focused Approach</h1>
       <p>
       We have a customer focused approach while delivering services.
