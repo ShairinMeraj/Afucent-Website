@@ -1,6 +1,7 @@
 import "./CardStyles.css";
 import CardData from "./CardData";
 import img1 from "../../images/six.jpg";
+import img2 from "../../images/Banner1.jpeg";
 function Card() {
   return (
     <div className="trip">
@@ -13,7 +14,7 @@ function Card() {
           text="-Digital Analytics"
         />
         <CardData
-          image={img1}
+          image={img2}
           heading="Marketing Automation"
           text="Lead Management"
           text2="Personalization"

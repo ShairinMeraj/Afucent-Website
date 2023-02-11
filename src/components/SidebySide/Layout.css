@@ -23,6 +23,7 @@
      
 }
 .text-box{
+    margin-top:200px ;
     color: black;
 
 }
@@ -34,13 +35,13 @@
 }
 @media screen and (max-width: 998px){
     .lay{
-        width: 450px;
+        width: 350px;
         height: 300px;
 align-items: center;
 margin-left: 0px;
 margin-bottom: 60px;
     }
     .wrapper{
-        margin-left: 50px;
+        margin-left: 70px;
     }
 }

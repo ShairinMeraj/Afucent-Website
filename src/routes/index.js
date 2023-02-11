@@ -8,8 +8,8 @@ import Footer from "../components/Footer";
 import Connect from "../components/Contact/Contact";
 
 import Layout from "../components/SidebySide/Layout";
-
 import ServicesHome from "../components/ServicesHome/ServicesHome";
+import Expertise from "../components/HomeExpertise/Expertise";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,9 +24,10 @@ const Home = () => {
     <Slider/>
 
     <Layout/> 
-   
+
     
   <ServicesHome/>
+  <Expertise/>
 <Connect/>
    
       <Footer/>
