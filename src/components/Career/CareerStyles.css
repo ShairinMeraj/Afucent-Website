@@ -22,10 +22,12 @@
     width: 45%;
     text-align: start;
     font-size: 1.1rem;
+    font-weight: 200;
   }
   
   .des-text h2 {
     padding-bottom: 1rem;
+    font-weight: 200;
   }
   
   .image {

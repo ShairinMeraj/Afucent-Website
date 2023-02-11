@@ -65,7 +65,7 @@ text-align: center;
 @media screen and (max-width: 768px)
 {display: none;}`
 
-export const NavItems=styled.li`
+export const NavItems=styled.li` 
  height: 80px;
  `
  export const NavLinks=styled(LinkR)`

@@ -11,7 +11,7 @@ class Career extends Component {
         </div>
         <div className="image">
           <img alt="dest" src={this.props.img1} />
-          <img alt="dest" src={this.props.img1} />
+          <img alt="dest" src={this.props.img2} />
         </div>
       </div>
     );

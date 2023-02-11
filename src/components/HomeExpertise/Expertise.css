@@ -107,13 +107,13 @@ margin-bottom: 30px;
     }
     .s-b{
        width: 150px;
-       margin-left: 90px;}
+       margin-left: 50px;}
    .s-row{
        grid-template-columns: 1fr;
 
    }
    .thumb img{
-       width:350px;
-       height: 400px;
+       width:250px;
+       height: 300px;
    }
 }

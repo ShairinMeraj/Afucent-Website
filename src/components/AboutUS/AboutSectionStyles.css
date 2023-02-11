@@ -6,7 +6,9 @@
     font-size: 2rem;
     padding-bottom: 1rem;
   }
-  
+  .ab{
+    font-weight: 200;
+  }
   .about-container p {
     padding-bottom: 2rem;
     font-size: 20px;
