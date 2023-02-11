@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Banner from "../components/SectionBanner/Banner";
-import CareerImg from "../images/career.png";
+import CareerImg from "../images/CareerBanner.jpeg";
 import Careers from "../components/Career/Careers";
  
 function Career() {

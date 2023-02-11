@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import Slider from "../components/Carousal/Slider";
 
-import InfoSection from "../components/InfoSection";
-import { homeObjOne, homeObjThree, homeObjTwo } from "../components/InfoSection/Data";
 import NavBar from "../components/NavBar";
 
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import Connect from "../components/Contact/Contact";
 
+import Layout from "../components/SidebySide/Layout";
 
-import K from "../components/AboutUS/AboutUs";
+import ServicesHome from "../components/ServicesHome/ServicesHome";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,20 +22,17 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
     <Slider/>
-    <K />
-     
-   
-     <InfoSection  {...homeObjOne}/> 
-      <InfoSection {...homeObjTwo}/>
 
-     <InfoSection {...homeObjThree}/>
-  
+    <Layout/> 
+   
+    
+  <ServicesHome/>
 <Connect/>
    
       <Footer/>
      
       
-      {/* <InfoSection {...homeObjThree}/> */}
+    
     </>
   );
 };

@@ -35,12 +35,17 @@ cursor: pointer;
 
  
 
- text-decoration: none; `;
+ text-decoration: none; 
+ @media screen and (max-width:  960px){
+    margin-top: 9px;
+
+    width:100px;
+    height: 50px;
+ }`;
 
 
 export const MobileIcon=styled.div`
 display: none;
-
 @media screen and (max-width: 768px){
     display: block;
     position: absolute;
@@ -49,7 +54,7 @@ display: none;
     transform: translate(-100%,60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #000;
+    color: #fff;
 }
 `;
 export const NavMenu=styled.ul`
