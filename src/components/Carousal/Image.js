@@ -1,36 +1,26 @@
 
-import Fifth from "../../images/five.jpg";
+import Fifth from "../../images/nurture.png";
 import Banner2 from "../../images/Banner2.jpeg";
-import one from "../../images/1Banner.jpeg";
+import one from "../../images/five.jpg";
 
-import three from "../../images/3Banner.jpeg";
-import four from "../../images/4Banner.jpeg";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
  
-  {
+  {title: "Transforming Business with the use of Advance Technologies",
     
     urls: one,
   },
  
-  {
-    
-    urls: three,
-  },
-  {
-   
-    urls: four,
-  },
 
   {
-    title: "Third Slide",
-    description: "This is the third slider Image of our carousel",
-    urls: Fifth,
+    title: "Crafting differentiated digital experience with MarTech",
+    
+    urls: Banner2,
   },
   {
-    title: "Fourth Slide",
-    description: "This is the fourth slider Image of our carousel",
-    urls: Banner2,
+    title: "Nurturing & Empowering Talent for Digital Technologies",
+    
+    urls: Fifth,
   },
   
 ];

@@ -6,7 +6,7 @@ import styled from 'styled-components';
  z-index: 999;
  width: 100%;
  height: 100%;
- background:  #0B0B45; 
+ background: #052257; 
  display: grid;
  align-items: center;
  top: 0;
@@ -17,7 +17,7 @@ import styled from 'styled-components';
  `
 
  export const CloseIcon=styled(FaTimes)`
- color: #fff;`
+ color:#fff;`
 
  export const Icon=styled.div`
  position: absolute;
@@ -29,7 +29,7 @@ import styled from 'styled-components';
  outline: none;`
 
  export const SidebarWrapper=styled.div`
- color:#fff;
+ color:#052257;
  `
  export const SidebarMenu=styled.ul`
   display:grid;
@@ -53,6 +53,6 @@ color: #fff;
 cursor: pointer;
  
 &: hover {
-    color:  #0B0B45;
-    transition: 0.2s ease-in-out;
+    color:#92acdc;
+    transition: 0.6s ease-in-out;
 }`;

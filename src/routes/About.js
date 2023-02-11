@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Banner from "../components/SectionBanner/Banner";
-import AboutImg from "../images/imp.jpg";
+import AboutImg from "../images/AboutBanner.jpeg";
 import AboutSection from "../components/AboutUS/AboutSection";
 function About() {
   const [isOpen, setIsOpen] = useState(false);
