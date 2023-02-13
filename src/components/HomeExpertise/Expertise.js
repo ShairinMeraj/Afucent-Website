@@ -18,15 +18,15 @@ const Expertise = () => {
                     detail.map((detail )=>{
                         return ( <div className='s-col'> 
                             <div className='s-card '>  
-                                <div className='thumb'>
+                                <div className='thumb-ex'>
                                     <img src={detail.Image} alt="agent"/>
                                                                                              
                                 </div>
-                                <div className='s-info'><h3>
+                                <div className='s-info-ex'><h3>
                                     {detail.name}</h3>
                                     <p>
                                         {detail.info}</p>
-                                      <div className='s-b'>  <Button >Learn more</Button></div></div>
+                                      <div className='s-b-ex'>  <Button >Learn more</Button></div></div>
                             </div>
                            </div>
                             
