@@ -14,19 +14,14 @@ their business structure by leveraging advanced tools and making better use of s
 We follow strong governance model and methodology adhering to well defined process.
       </p>
 
-      <h1>Focused Approach</h1>
+      <h1>Technology for Scaled Digital Experience</h1>
       <p>
       We have experienced team focusing on digital experience and marketing technologies. 
 Team is flexible in adapting new technologies/approach to provide scalable digital solutions.
 
       </p>
 
-      <h1>Technology for Scaled Digital Experience
-</h1>
-      <p>
-      We have a customer focused approach while delivering services.
-We follow strong governance model and methodology adhering to well defined process.
-      </p>
+     
 
       <h1>Solution Oriented
 </h1>
