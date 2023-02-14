@@ -6,6 +6,7 @@
   :root {
     --heights: 100vh;
     --widths: 100%;
+    
   }
   
   .slider-container {
@@ -14,10 +15,14 @@
     position: relative;
     margin: auto;
     overflow: hidden;
+    
+    
   }
+  
   
   .active {
     display: inline-block;
+    
   }
   
   .inactive {
@@ -28,20 +33,22 @@
     height: var(--heights);
     width: var(--widths);
     position: relative;
+    
   } 
   
   .slide-image {
     width: 100%;
     height: 100%;
+    filter: brightness(60%);
     position: absolute;
-    background: linear-gradient(
+    background-color: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.2) 0%,
         rgba(0, 0, 0, 0.6) 100%),
         linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
-    z-index: -10;
+    z-index: -99990;
     object-fit: cover;
-  }
+  }  
   
   .slide-title,
   .slide-text {
@@ -55,21 +62,23 @@ float: left;
     top: 40%;
   padding-right: 500px;
   padding-left: 10px;
-    /*z-index: 10;*/
-
+    /* z-index: 10; */
+    
  
   }
+
   
   .slide-text {
     top: 65%;
     font-size: 2rem;
+  
   }
   
   .prev,
   .next {
     color: transparent;
     cursor: pointer;
-    z-index: 100;
+    /* z-index: 100; */
     position: absolute;
     top: 50%;
     width: auto;
@@ -82,6 +91,7 @@ float: left;
   
   .slider-container:hover .prev,.slider-container:hover .next {
     color: black
+    
   }
   
   .slider-container:hover .prev:hover,
@@ -103,7 +113,7 @@ float: left;
     display: flex;
     top: 85%;
     justify-content: center;
-    z-index: 200;
+    /* z-index: 200; */
   }
   
   .dot {
@@ -119,6 +129,7 @@ float: left;
   
   .slider-container:hover .dot:hover {
     background-color: rgba(255, 255, 255, 0.5);
+    
   }
   
   /* .active-dot {
@@ -158,23 +169,15 @@ object-position:80%;
     height: 100%;
     color: white;
 
-    font-size: 30px;
+    font-size: 40px;
 padding-right: 10px;
 
-    text-align: center;
+    text-align: left;
     top: 40%;
     /*z-index: 10;*/
 
  
-    text-shadow:
-    0.05em 0 black,
-    0 0.05em black,
-    -0.05em 0 black,
-    0 -0.05em black,
-    -0.05em -0.05em black,
-    -0.05em 0.05em black,
-    0.05em -0.05em black,
-    0.05em 0.05em black;
+    
   }
   
   
@@ -182,7 +185,7 @@ padding-right: 10px;
   .next {
     color: transparent;
     cursor: pointer;
-    z-index: 100;
+    /* z-index: 100; */
     position: absolute;
     top: 50%;
     width: auto;
