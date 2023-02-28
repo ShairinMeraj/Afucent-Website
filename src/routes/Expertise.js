@@ -16,7 +16,7 @@ function Expertise() {
     <>
     <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
-      <Banner cName="banner-mid" bannerImg={AboutImg} title="Expertise" btnClass="hide" />
+      <Banner cName="banner-mid" bannerImg={AboutImg} title="Enhancing Customer Experience through Integrated Technology Approach" btnClass="hide" />
       <Services/>
       <Card/> 
      <Card2/>

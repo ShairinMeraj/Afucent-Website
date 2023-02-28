@@ -20,14 +20,14 @@ const ServicesHome = () => {
                         return ( <div className='s-col'>
                             <div className='s-card '>
                                 <div className='thumb'>
-                                    <img src={detail.Image} alt="agent"/>
+                                    <img src={detail.Image} alt="img"/>
                                                                                              
                                 </div>
                                 <div className='s-info'><h3>
                                     {detail.name}</h3>
                                     <p>
                                         {detail.info}</p>
-                                      <div className='s-b'>  <Button >Learn more</Button></div></div>
+                                      <div className='s-b'>   <Button>Learn more</Button></div></div>
                             </div>
                            </div>
                             

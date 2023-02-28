@@ -59,7 +59,7 @@ color: #fff;
 font-size: 44px;
 margin-top: 2px;
 text-align: center;
-
+padding-top: 0px;
 
 @media screen and (max-width: 768px){
      font-size: 40px;

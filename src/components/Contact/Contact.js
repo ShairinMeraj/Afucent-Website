@@ -11,7 +11,7 @@ const Connect = () => {
   return (
     <HeroContainer id='home'>
         <HeroBg>
-            <VideoBg alt='team' src={require("../../images/contact.jpg")} />
+            <VideoBg alt='team' src={require("../../images/Connect.jpg")} />
         </HeroBg>
         <HeroContent>
             

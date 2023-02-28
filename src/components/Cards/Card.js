@@ -1,6 +1,6 @@
 import "./CardStyles.css";
 import CardData from "./CardData";
-import img1 from "../../images/six.jpg";
+import img1 from "../../images/consult.jpg";
 import img2 from "../../images/Banner1.jpeg";
 function Card() {
   return (
