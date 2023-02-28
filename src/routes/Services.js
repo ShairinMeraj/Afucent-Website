@@ -17,7 +17,14 @@ function Service() {
     <>
     <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
-      <Banner cName="banner-mid" bannerImg={AboutImg} title="Services" btnClass="hide" />
+      <Banner cName="banner-mid" bannerImg={AboutImg} title="Leveraging Technology for Scaled Digital Experience
+img
+Consulting
+Learn more
+img
+Implementation
+Learn more
+" btnClass="hide" />
     <InfoSection  {...homeObjOne}/> 
       <InfoSection {...homeObjTwo}/>
 

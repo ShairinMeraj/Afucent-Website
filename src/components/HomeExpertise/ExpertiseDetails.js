@@ -1,7 +1,7 @@
 const ExpertiseDetails=[
     {
         id:"1",
-        Image: require('../../images/three.jpg'),
+        Image: require('../../images/Transform.jpeg'),
         name: "Digital Experience Management Practice",
    
     },
@@ -14,7 +14,7 @@ const ExpertiseDetails=[
     {
         id:"3",
        
-        Image: require('../../images/Transform.jpeg'),
+        Image: require('../../images/three.jpg'),
         name: "Digital Transformation",
    
     },

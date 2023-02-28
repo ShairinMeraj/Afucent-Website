@@ -11,7 +11,8 @@ const Expertise = () => {
             <span>
             Our Expertise
             </span>
-            <h2>Leveraging Technology for Scaled Digital Experience</h2>
+            <h2>Enhancing Customer Experience through
+Integrated Technology Approach</h2>
             </div>
             <div className='s-row'>
                 {
