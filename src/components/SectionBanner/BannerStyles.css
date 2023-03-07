@@ -28,7 +28,7 @@
   .ban-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:scale-down();
     background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -76,12 +76,16 @@ color: #fff;
   .banner-text .hide  {
     display: none;
   }
-  @media screen and(max-width: 555px){
-    .banner-text h1{
+  @media screen and (max-width: 970px) {
+    .banner-text {
       padding: 10px 20px;
+      font-size: 5px;
   
     }
-    banner-text p {
+    .banner-text h1{
+      font-size: 35px;
+    }
+    .banner-text p {
       font-size: 1.1rem;
       padding: 0 0 2rem 0;
   
@@ -89,7 +93,7 @@ color: #fff;
   .banner-text .show {
     padding: 0.6rem 1.1rem;
     border-radius: 6px;
-    font-size: 1rem;
+ 
    
    
   

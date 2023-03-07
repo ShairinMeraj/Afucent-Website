@@ -1,7 +1,9 @@
 
 import React, {Fragment, useState} from 'react'
-import { Button } from "../ButtonElements";
-import ServiceDetails  from './ServiceDetails'
+
+import { LinkButton } from '../LinkButton';
+
+import ServiceDetails  from './ServiceDetails' 
 import "./Services.css"
 const ServicesHome = () => {
     const[detail]=useState(ServiceDetails )
@@ -27,7 +29,7 @@ const ServicesHome = () => {
                                     {detail.name}</h3>
                                     <p>
                                         {detail.info}</p>
-                                      <div className='s-b'>   <Button>Learn more</Button></div></div>
+                                      <div className='s-b'>   <LinkButton to='/service'>Learn more</LinkButton></div></div>
                             </div>
                            </div>
                             

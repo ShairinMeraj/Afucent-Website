@@ -46,7 +46,7 @@
  background: #052257;
 
 }
-.sh-heading span::after{
+.sh-heading::after{
     position: absolute;
  top: 50%;
 left: -60px;

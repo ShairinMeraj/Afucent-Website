@@ -38,7 +38,7 @@ text-align: center;
    font-family: 'Poppins', sans-serif;
 
 }
-.sh-heading span::before{
+.sh-heading::before{
 position: absolute;
 top: 50%;
 right: -60px;
@@ -48,7 +48,7 @@ height: 1px;
 background: #052257;
 
 }
-.sh-heading span::after{
+.sh-heading::after{
    position: absolute;
 top: 50%;
 left: -60px;
