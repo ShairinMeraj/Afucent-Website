@@ -38,7 +38,7 @@ text-align: center;
     font-size:  25px;
 }
 
-span{
+.s-divi span{
     color:#052257;
     font-weight: 600;
     font-size: 12px ;
@@ -47,7 +47,7 @@ span{
     font-family: 'Poppins', sans-serif;
 
  }
- span::before{
+ .s-divi span::before{
 
  position: absolute;
  top: 50%;
@@ -59,7 +59,7 @@ span{
  background: #052257;
  
  }
- span::after{
+ .s-divi span::after{
     position: absolute;
  top: 50%;
  left: -60px;

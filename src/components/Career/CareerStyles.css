@@ -51,14 +51,17 @@
   }
   @media screen and (max-width: 850px) {
     destination {
-      margin: 4rem 2rem;
+    padding-right:-10px;
     }
     .first-des {
       display: flex;
       flex-direction: column-reverse;
   
       margin-top: 2.5rem;
+    }.destination h1{
+      font-size: 35px;
     }
+    
     .first-des-reverse {
       display: flex;
       flex-direction: column-reverse;
@@ -68,6 +71,7 @@
     }
     .des-text {
       width: 100%;
+      font-size: 15px;
     }
     .image {
       width: 100%;

@@ -15,7 +15,7 @@ function Career() {
     <> 
     <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
-      <Banner cName="banner-mid" bannerImg={CareerImg} title="We aim to amplify human potential and create the next opportunity for people, businesses and communities" btnClass="hide" />
+      <Banner cName="banner-mid" bannerImg={CareerImg} title="We aim to amplify human potential and create opportunities for people and brands to meet rapid changes in Technology " btnClass="hide" />
       <Careers/>
 
       <Footer/>
