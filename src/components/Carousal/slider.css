@@ -38,7 +38,7 @@
   
   .slide-image {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     filter: brightness(60%);
     position: absolute;
     background-color: linear-gradient(
@@ -47,7 +47,19 @@
         rgba(0, 0, 0, 0.6) 100%),
         linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
     z-index: -99990;
-    object-fit: cover;
+      
+  }   .Mslide-image {
+    width: 100%;
+    height: 200vh;
+    filter: brightness(60%);
+    position: absolute;
+    background-color: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.6) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+    z-index: -99990;
+      
   }  
   
   .slide-title,
@@ -56,6 +68,8 @@
     height: 100%;
     color: white;
 float: left;
+font-weight: 500;
+
     font-size: 70px;
     position: absolute;
     text-align: left;
@@ -149,21 +163,19 @@ float: left;
   }
 
   @media screen  and (max-width: 998px) {
-   .slide-image {
+    .slide-image {
       width: 100%;
-  min-height: 200px;
+      height: 400vh;
+      filter: brightness(70%);
       position: absolute;
-      background: linear-gradient(
+      background-color: linear-gradient(
           180deg,
           rgba(0, 0, 0, 0.2) 0%,
           rgba(0, 0, 0, 0.6) 100%),
           linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
-      z-index: -7;
-object-position:80%;
-      
-    
-    }
-
+      z-index: -99990;
+        
+    }   
     .slide-title,
   .slide-text {
     width: 100%;
@@ -192,6 +204,7 @@ padding-right: 10px;
     width: auto;
     padding: 1rem;
     margin-top: -3rem;
+
     font-size: 30px;
     font-weight: bold;
     border-radius: 0px 5px 5px 0px;

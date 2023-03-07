@@ -1,7 +1,8 @@
 import React, {Fragment, useState} from 'react'
-import { Button } from "../ButtonElements";
+
 import ExpertiseDetails  from './ExpertiseDetails'
 import "./Expertise.css"
+import { LinkButton } from '../LinkButton';
 const Expertise = () => {
     const[detail]=useState(ExpertiseDetails )
   return (
@@ -27,7 +28,7 @@ Integrated Technology Approach</h2>
                                     {detail.name}</h3>
                                     <p>
                                         {detail.info}</p>
-                                      <div className='s-b-ex'>  <Button >Learn more</Button></div></div>
+                                      <div className='s-b-ex'> <LinkButton  to='/expertise'>Learn more</LinkButton> </div></div>
                             </div>
                            </div>
                             

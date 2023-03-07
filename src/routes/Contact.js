@@ -1,5 +1,6 @@
 import {ServicesH1} from "../components/Services/ServiceElements"
 import "./contact.css";
+import emailjs from '@emailjs/browser';
 import React, {useState } from "react";
 import Sidebar from "../components/Sidebar";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -7,13 +8,23 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import AboutImg from "../images/contact.jpg";
 import Banner from "../components/SectionBanner/Banner";
+
 const Contact = () => {
   const [verified, setVerified]= useState(false); 
   const [isOpen, setIsOpen] = useState(false);
   function onChange(value) {
     console.log("Captcha value:", value);
     setVerified(true);
-  }
+  }const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_d02zhi9', 'template_tlw202w', e.target, '4TqjuHblDGoObDros')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -50,12 +61,12 @@ const Contact = () => {
               </div>
             </div>
 
-            <form action=''>
+            <form action='' onClick={sendEmail}>
               <div className='flexSB'>
-                <input type='text' placeholder='Name' />
-                <input type='email' placeholder='Email' />
+                <input type='text' name="fullName" placeholder='Name' />
+                <input type='email'name="email" placeholder='Email' />
               </div>
-              <input type='text' placeholder='Subject' />
+              <input type='text' name='message'placeholder='Subject' />
               <textarea cols='30' rows='10'>
                 Create a message here...
               </textarea>
