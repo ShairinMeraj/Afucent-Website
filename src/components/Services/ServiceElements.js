@@ -63,7 +63,7 @@ height:70px;
 padding: 6px;
 box-sizing: border-box;
 position: relative;
-bottom: 240px;
+bottom: 70px;
 background: rgb(27, 27, 27, 0.5);
 color: White;
 

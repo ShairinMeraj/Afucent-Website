@@ -7,3 +7,7 @@
 .IconS:hover .mm{
     visibility: visible;
 }
+.sh2{
+    text-decoration-line: line-through;
+    color: aqua;
+}
