@@ -1,5 +1,5 @@
 import "./Layout.css";
-import second from "../../images/pexels-fauxels-3183183.jpg"
+import second from "../../images/ab.jpg"
 const Layout = () => {
   return (
     <div className="body">
