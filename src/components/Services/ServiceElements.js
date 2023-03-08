@@ -66,8 +66,8 @@ position: relative;
 bottom: 240px;
 background: rgb(27, 27, 27, 0.5);
 color: White;
-visibility:  visible;
-opacity: 0;
+
+opacity: 1;
 
 transition: .5s;
 &: hover{

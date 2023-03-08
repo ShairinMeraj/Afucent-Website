@@ -1,4 +1,5 @@
 import React from 'react'
+import "./hover.css"
 import Icon1 from '../../images/Content.png'
 import Icon2 from '../../images/Devices.png'
 import Icon3 from '../../images/Ecommerce.png'
@@ -12,28 +13,29 @@ const Services = () => {
          <ServicesWrapper>
           
             <ServicesCard>
-                <ServicesIcon src={Icon1}/>
-                <Servicesdiv>
+                <ServicesIcon  className='IconS' src={Icon1}/>
+                <Servicesdiv className='mm'>
                 <ServicesH2>Content Management Systems</ServicesH2>
+                <div className='hide'>
                 <ServicesP>Headless CMS</ServicesP>
                 <ServicesP> Traditional CMS</ServicesP>
-                <ServicesP>Experience Manager  as a Cloud Service</ServicesP>
+                <ServicesP>Experience Manager  as a Cloud Service</ServicesP></div>
                 </Servicesdiv>
                  </ServicesCard>
             <ServicesCard>
-                <ServicesIcon src={Icon2}/>
-                <Servicesdiv>
-                <ServicesH2>Web & Mobile Apps</ServicesH2>
+                <ServicesIcon className='IconS' src={Icon2}/>
+                <Servicesdiv className='mm'>
+                <ServicesH2>Web & Mobile Apps</ServicesH2><div className='hide'>
                 <ServicesP>Web Applications</ServicesP>
-                <ServicesP>Cross Platform Apps</ServicesP>
+                <ServicesP>Cross Platform Apps</ServicesP></div>
                 </Servicesdiv>
             </ServicesCard>
             <ServicesCard>
-                <ServicesIcon src={Icon3}/>
-                <Servicesdiv>
-                <ServicesH2>E-commerce System</ServicesH2>
+                <ServicesIcon className='IconS' src={Icon3}/>
+                <Servicesdiv className='mm'>
+                <ServicesH2>E-commerce System</ServicesH2><div className='hide'>
                 <ServicesP>Business-to-business (B2B) sites</ServicesP>
-                <ServicesP>Business-to-consumer (B2C) sites</ServicesP>
+                <ServicesP>Business-to-consumer (B2C) sites</ServicesP></div>
                 </Servicesdiv>
             </ServicesCard>
          </ServicesWrapper>

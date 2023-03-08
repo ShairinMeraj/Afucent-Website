@@ -9,6 +9,7 @@
     text-align: center;
  
 }
+
 .sh-heading{
  text-align: center;
 }
@@ -46,7 +47,7 @@
  background: #052257;
 
 }
-.sh-heading::after{
+.sh-heading span::after{
     position: absolute;
  top: 50%;
 left: -60px;
