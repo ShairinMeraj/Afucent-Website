@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="/">
             <i className="fa-brands fa-instagram-square"></i>
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/company/afucent-technologies/">
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a href="/">

@@ -12,22 +12,22 @@ import im3  from "../../images/fC.jpg";
 export default [
  
   {title: "Transforming Business with the use of Advance Technologies",
-  url: im1,
+  url: im3,
     urls: one
  
     
-  },
+  }, 
  
 
 
   {
     title: "Crafting differentiated digital experience with MarTech",
-    url: im2,
+    url: im1,
     urls: Banner2
   },
   {
-    title: "Nurturing & Empowering Talent for Digital Technologies",
-    url: im3,
+    title: "Nurturing & Empowering Talent             for Digital Technologies",
+    url: im2,
     urls: Fifth,
   },
 

@@ -212,7 +212,8 @@ padding-left: 30px;
  
     
   }
-  
+  .all-dots {
+    top: 60%;}
   
   .prev,
   .next {

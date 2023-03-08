@@ -28,7 +28,7 @@
   .ban-img {
     width: 100%;
     height: 100%;
-    object-fit:scale-down();
+    object-fit:cover;
     background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -83,7 +83,7 @@ color: #fff;
   
     }
     .banner-text h1{
-      font-size: 35px;
+      font-size: 30px;
     }
     .banner-text p {
       font-size: 1.1rem;
