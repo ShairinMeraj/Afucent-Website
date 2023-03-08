@@ -1,7 +1,7 @@
 import {ServicesH1} from "../components/Services/ServiceElements"
 import "./contact.css";
-import emailjs from '@emailjs/browser';
-import React, {useState } from "react";
+import emailjs from '@emailjs/browser'; 
+import React, {useRef, useState } from "react";
 import Sidebar from "../components/Sidebar";
 import ReCAPTCHA from "react-google-recaptcha";
 import NavBar from "../components/NavBar";
@@ -15,7 +15,9 @@ const Contact = () => {
   function onChange(value) {
     console.log("Captcha value:", value);
     setVerified(true);
-  }const sendEmail = (e) => {
+  
+  }
+   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_d02zhi9', 'template_tlw202w', e.target, '4TqjuHblDGoObDros')
@@ -24,11 +26,19 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
+   
   };
-  
+  const captcha =useRef(null);
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+  const handleSubmit=(e)=>{
+    sendEmail(e);
+    captcha.current.reset();
+  
+    e.preventDefault();
+  }
   const map = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.737391963776!2d80.94543321423654!3d26.848303669325077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd08a44d23df%3A0x942d741751b38cca!2sNew%20Janpath%20Complex%2C%20Ashok%20Marg%2C%20Sadullah%20Nagar%2C%20Narhi%2C%20Hazratganj%2C%20Lucknow%2C%20Uttar%20Pradesh%20226001!5e0!3m2!1sen!2sin!4v1659702526654!5m2!1sen!2sin'
   return (
     <> 
@@ -61,7 +71,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <form action='' onClick={sendEmail}>
+            <form action='' onSubmit={handleSubmit}  >
               <div className='flexSB'>
                 <input type='text' name="fullName" placeholder='Name' />
                 <input type='email'name="email" placeholder='Email' />
@@ -70,11 +80,11 @@ const Contact = () => {
               <textarea cols='30' rows='10'>
                 Create a message here...
               </textarea>
-              <ReCAPTCHA
+              <ReCAPTCHA ref={captcha}
     sitekey="6LcBU0kkAAAAAGYVcUP6sokXvLYNsOIaH4wjexS9"
     onChange={onChange}
-  />,
-              <button type='submit'className='primary-btn' disabled={!verified}>SEND MESSAGE</button>
+  />
+              <button type='submit'  className='primary-btn' disabled={!verified} >SEND MESSAGE</button>
             </form>
 
            

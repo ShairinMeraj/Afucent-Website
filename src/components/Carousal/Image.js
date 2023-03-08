@@ -3,9 +3,9 @@ import Fifth from "../../images/nurture.png";
 import Banner2 from "../../images/Banner2.jpeg";
 import one from "../../images/five.jpg";
 
-import im1 from "../../images/img1.png";
-import im2 from "../../images/img2-1.png";
-import im3  from "../../images/img3.png";
+import im1 from "../../images/stC.jpg";
+import im2 from "../../images/nC.png";
+import im3  from "../../images/fC.jpg";
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
