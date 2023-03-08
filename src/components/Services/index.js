@@ -15,7 +15,7 @@ const Services = () => {
             <ServicesCard>
                 <ServicesIcon  className='IconS' src={Icon1}/>
                 <Servicesdiv className='mm'>
-                <ServicesH2>Content Management Systems</ServicesH2>
+                <ServicesH2  className='sh2'>Content Management Systems</ServicesH2>
                 <div className='hide'>
                 <ServicesP>Headless CMS</ServicesP>
                 <ServicesP> Traditional CMS</ServicesP>
@@ -25,7 +25,7 @@ const Services = () => {
             <ServicesCard>
                 <ServicesIcon className='IconS' src={Icon2}/>
                 <Servicesdiv className='mm'>
-                <ServicesH2>Web & Mobile Apps</ServicesH2><div className='hide'>
+                <ServicesH2 className='sh2'>Web & Mobile Apps</ServicesH2><div className='hide'>
                 <ServicesP>Web Applications</ServicesP>
                 <ServicesP>Cross Platform Apps</ServicesP></div>
                 </Servicesdiv>
@@ -33,7 +33,7 @@ const Services = () => {
             <ServicesCard>
                 <ServicesIcon className='IconS' src={Icon3}/>
                 <Servicesdiv className='mm'>
-                <ServicesH2>E-commerce System</ServicesH2><div className='hide'>
+                <ServicesH2  className='sh2'>E-commerce System</ServicesH2><div className='hide'>
                 <ServicesP>Business-to-business (B2B) sites</ServicesP>
                 <ServicesP>Business-to-consumer (B2C) sites</ServicesP></div>
                 </Servicesdiv>
